@@ -13,4 +13,4 @@ I would create a list called bag_O_Marbles. Maybe another list called free_Marbl
 I would have another function to add the created marble to the list bag_O_Marbles, and another to delete them from the list. Once deleted they would be added to the list free_marbles. I could import the random module and use that in a seperate function that would choose a random index in the bag_O_marbles list to be deleted.
 
 4.) A few ways that we could use to show that our implementation should be working correctly (tests)
-
+(full admission, I thought of these AFTER I wrote the program) I wrote a couple tests to make sure the create, add, and remove functions of my main program work. For the creation test I made a marble using the create function and added it to the free marbles list twice. I then checked if the length of the free marbles was 2. For the add marble function I created a marble and then ran the add_marble function on that marble. Then I checked that the number of marbles in the bag equaled one. I did the same for the remove function, instead checking that the number of marbels in the bag now equaled 0.
